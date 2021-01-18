@@ -13,6 +13,7 @@ class Greeter extends EventEmitter {
 }
 
 const greeter1 = new Greeter();
+
 greeter1.on('greet', function (data) {
   console.log('Someone say hi to ' + data);
 });
